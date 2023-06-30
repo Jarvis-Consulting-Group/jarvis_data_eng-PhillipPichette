@@ -23,7 +23,9 @@ psql -h localhost -U <db_username> -W -f sql/ddl.sql
 I started with developing the Bash script 'psql_docker' to handle start, stop, and create operations for the PSQL container. Next, I developed the SQL script 'ddl.sql' to be able to create the tables needed for the database. I then created additional Bash scripts ('host_info.sh' and 'host_usage.sh') to collect hardware information and usage data. The last step was to set up the cron job. I used crontab to run the 'host_usage.sh' script every minute and log it into a log file.
 ## Architecture
 Draw a cluster diagram with three Linux hosts, a DB, and agents (use draw.io website). Image must be saved to the `assets` directory.
-[linux cluster.png]
+
+
+![linux cluster](/assets/cluster diagram.png)
 
 ## Scripts
 Shell script description and usage (use markdown code block for script usage)
