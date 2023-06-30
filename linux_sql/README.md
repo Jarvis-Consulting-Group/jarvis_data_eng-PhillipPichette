@@ -25,7 +25,7 @@ I started with developing the Bash script 'psql_docker' to handle start, stop, a
 Draw a cluster diagram with three Linux hosts, a DB, and agents (use draw.io website). Image must be saved to the `assets` directory.
 
 
-![linux cluster](/assets/cluster diagram.png)
+![linux cluster](/assets/clusterDiagram.png)
 
 ## Scripts
 Shell script description and usage (use markdown code block for script usage)
